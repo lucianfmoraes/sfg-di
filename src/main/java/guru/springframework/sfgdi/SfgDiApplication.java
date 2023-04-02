@@ -18,6 +18,7 @@ public class SfgDiApplication {
 		PetController petController = context.getBean("petController", PetController.class);
 		System.out.println(" * * * * * Best Pet Is * * * * *");
 		System.out.println(petController.whichPetIsTheBest());
+		System.out.println(" ");
 
 		System.out.println(" * * * * * Profile Greeting * * * * *");
 		I18nController i18nController = (I18nController) context.getBean("i18nController");
